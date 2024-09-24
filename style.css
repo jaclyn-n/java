@@ -1,0 +1,21 @@
+#view-button {
+    border-radius: 7px;
+    /* box-shadow: o.5px grey; */
+    width: 100px;
+    height: 50px;
+    background-color: rgb(19, 209, 209);
+
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   padding: px;
+
+}
+
+
+.paragraph-header{
+    
+}
