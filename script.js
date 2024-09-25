@@ -31,6 +31,11 @@ addValues( 9, 8); //9 and 8
 addValues(12,16); // 12 and 16
 
 
+
+const addNumber =() => {
+
+}
+
 function squareValues  ( firstValue) {
     // let firstValue = 2
 
@@ -45,3 +50,14 @@ squareValues(9);
 
 // add a click event to
 // viewButton.addEventListener('click', showTodos);
+
+
+
+
+  // ES6
+  const addTwoNumbers = (firstNum, secondNum)=> {
+    const total = firstNum + secondNum;
+    console.log('${firstNum} + ${secondNum}')
+  }
+  
+  addTwoNumbers (2,5)
